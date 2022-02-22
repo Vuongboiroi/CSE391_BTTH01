@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+
+ul li{
+    background: rgb(75, 73, 73);
+    list-style-type: none;
+    height:30px;
+    width: 100px;
+    
+}
+h1{
+    position: relative;
+}
+ul{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 5px;
+
+}
+ul li:hover{
+    background: red;
+}
+.c1{
+    display: none;
+    width: 100%;
+    top: 30px;
+    position: absolute;
+    left: 100px;
+
+}
+.c1 li{
+    background-color: rgb(75, 73, 73);
+    color: white;
+}
+.h1:hover .c1{
+    display: block;
+
+}
